@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Who knows?</title>
+    <title>Home</title>
     <!-- Bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <header>
-        
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<header class="sticky-top">      
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
   <div class="container-fluid">
    
-    <a class="nav-link logo" href="#">
+    <a class="nav-link logo" href="/">
            <img class="logo-header" src="/logo-website.svg" width="35" height="35" alt="icon">
             by kim.</a>
 
@@ -23,13 +23,12 @@
     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
     aria-expanded="false" aria-label="Toggle navigation">
      <i class="bi bi-list"></i>
-
     </button>
     
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item one">
-          <a class="nav-link one" href="#">Home</a>
+          <a class="nav-link one" href="/">Home</a>
         </li>
         
         <li class="nav-item dropdown two">
@@ -38,11 +37,11 @@
           </a>
 
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Active Directory</a></li>
-            <li><a class="dropdown-item" href="#">DHCP Roles & Joining Workstations</a></li>
-            <li><a class="dropdown-item" href="#">Group Policy Management</a></li>
-            <li><a class="dropdown-item" href="#">RAID</a></li>
-            <li><a class="dropdown-item" href="#">File Services</a></li>
+            <li><a class="dropdown-item" href="/lab-activities/act-dir.html">Active Directory</a></li>
+            <li><a class="dropdown-item" href="/lab-activities/act-dhcp.html">DHCP Roles & Joining Workstations</a></li>
+            <li><a class="dropdown-item" href="/lab-activities/act-policy.html">Group Policy Management</a></li>
+            <li><a class="dropdown-item" href="/lab-activities/act-raid.html">RAID</a></li>
+            <li><a class="dropdown-item" href="/lab-activities/act-file.html">File Services</a></li>
           </ul>
         </li> 
         
@@ -52,20 +51,20 @@
           </a>
 
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Windows 95</a></li>
-            <li><a class="dropdown-item" href="#">Windows NT 4.0</a></li>
-            <li><a class="dropdown-item" href="#">Windows 98 SE</a></li>
-            <li><a class="dropdown-item" href="#">Windows 2000</a></li>
-            <li><a class="dropdown-item" href="#">Windows Server 2000</a></li>
-            <li><a class="dropdown-item" href="#">Windows ME</a></li>
-            <li><a class="dropdown-item" href="#">Windows XP</a></li>
-            <li><a class="dropdown-item" href="#">Windows Server 2003</a></li>
-            <li><a class="dropdown-item" href="#">Windows Vista</a></li>
-            <li><a class="dropdown-item" href="#">Windows Server 2008 R2</a></li>
-            <li><a class="dropdown-item" href="#">Windows 7</a></li>
-            <li><a class="dropdown-item" href="#">Windows 8</a></li>
-            <li><a class="dropdown-item" href="#">Windows 10</a></li>
-            <li><a class="dropdown-item" href="#">Windows 11</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-95.html">Windows 95</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-nt.html">Windows NT 4.0</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-98.html">Windows 98 SE</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-2000.html">Windows 2000</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-ser-2000.html">Windows Server 2000</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-me.html">Windows ME</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-xp.html">Windows XP</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-ser-2003.html">Windows Server 2003</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-vista.html">Windows Vista</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-ser-2008.html">Windows Server 2008 R2</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-7.html">Windows 7</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-8.html">Windows 8</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-10.html">Windows 10</a></li>
+            <li><a class="dropdown-item" href="/os-installations/os-win-11.html">Windows 11</a></li>
           </ul>
         </li> 
 
@@ -78,10 +77,9 @@
     </div>
 
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-   
     <ul class="navbar-nav me-auto mb-2 mb-lg-0 "> 
         <li class="nav-item five mt-0">
-            <a class="nav-link five exit" href="#" onclick="alert('as if i’d make an exit button. you’re already here, you might as well stay. worst case? you learn something. you forget you even wanted to leave. pretend that this button matters. it doesn’t. sofia was just a girl who sold flowers in a village and her mom married a king, and out of nowhere by the hands of disney\' plot twist, now she’s in a castle with talking animals, a magic amulet, and two stepsiblings that look as white as a bar of safeguard soap!')">
+            <a class="nav-link five exit" href="#" onclick="alert('as if i’d make an exit button. you’re already here, you might as well stay. worst case? you learn something. you forget you even wanted to leave. pretend that this button matters. it doesn’t. sofia was just a girl who sold flowers in a village and her mom married a king, and out of nowhere by the hands of disney\' plot twist, now she’s in a castle with talking animals, a magic amulet, and two stepsiblings that look as white as a bar of safeguard soap!?!?!')">
                 <i class="bi bi-x-circle"></i> Exit
             </a>
         </li>
@@ -89,11 +87,44 @@
 </div>
 
 </nav>
-    </header>
 
-    flying robots or somethin'
-    <!-- Bootstrap cdn link -->
+</header>
+
+
+
+
+
+
+
+<!-- content -->
+flying robots
+<!-- Bootstrap cdn link -->
+     <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" class="astro-vvvwv3sm"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+
+</div>
+
+   <div class="container-fluid"> 
+  <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 mb-0 pb-1 border-top"> 
+    
+    <div class="col-md-4 d-flex align-items-center"> 
+      <span class="mb-3 mb-md-0 footer-text">© <span id="current-year">2025</span> by kim.
+     
+      <a class ="footer-text" href="https://github.com/kimrebamba">
+          <i class="bi bi-github"></i>
+        </a>
+        </span>
+    </div> 
+
+  </footer> 
+</div>
+
+<script>
+  document.getElementById("current-year").textContent = new Date().getFullYear();
+</script>
+
+  </body>
+
+
 </html>

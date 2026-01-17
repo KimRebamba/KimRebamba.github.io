@@ -208,3 +208,22 @@ footer.border-top{
 .col-md-4{
     width:auto;
 }
+
+
+.instructions{
+    color:#7a7a7a;
+}
+
+.custom-fieldset {
+  border: 2px solid #454545; 
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.custom-legend {
+  float: none;
+  width: auto;
+  padding: 0 10px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
