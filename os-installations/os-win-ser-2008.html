@@ -114,7 +114,7 @@
         <div class="col-md-6 my-2">
   <div class="ratio ratio-16x9">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XfNntix9aDA?si=A3naaFDn8QbFzxMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t_9BM0C1OYs?si=vgbp23F4jYtbam09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
   </div>
 <p class="caption mt-2">
     Source: YouTube - How to use VirtualBox (Kevin Stratvert)
@@ -148,9 +148,32 @@
   
   <div class="content p-3 py-2 text">
     <ol class="fs-6">
-      <li>Lorem ipsum dolor sit amet</li>
-  <li>Consectetur adipiscing elit</li>
-  <li>Sed do eiusmod tempor</li>
+      <li>Open your virtualization software and create a new VM.</li>
+<li>Assign resources (RAM, CPU, disk space) as needed.</li>
+<li>Mount the Windows Server 2008 installation ISO.</li>
+<li>Start the VM.</li>
+<li>Follow on-screen prompts to start setup.</li>
+<li>Accept default or recommended settings when partitions are shown.</li>
+<li>Create a strong administrator password. Must include uppercase, lowercase, number, and symbol (or just three of them) (Example: EndUser123&).</li>
+<li>Set the time zone to whatever time zone you are.</li>
+<li>Go to Control Panel → Network and Sharing Center → Local Area Connection → Properties.</li>
+<li>Select Internet Protocol Version 4 (TCP/IPv4) and click Properties. (We're going to make our IP into a static one)</li>
+<li>What I used -> IP address: 192.168.1.2, Subnet mask: 255.255.255.0, Default gateway: 192.168.1.1.</li>
+<li>Click OK to apply changes.</li>
+<li>Rename the server to whatever name you want. Path: System Properties → Computer Name → Change.</li>
+<li>Open Server Manager.</li>
+<li>Click Add Roles.</li>
+<li>Select Active Directory Domain Services (AD DS) and proceed with installation.</li>
+<li>This installs Microsoft services like Group Policies.</li>
+<li>Run Active Directory Domain Services Installation Wizard.</li>
+<li>Choose to Create a new domain.</li>
+<li>Enter domain details: (What I used -> Domain Name: bsit.com, Domain Administrator Account: bsit\administrator).</li>
+<li>Select minimum server OS level: For me, Windows Server 2008.</li>
+<li>If a Delegation message appears, it is normal—it assigns control to the domain.</li>
+<li>Log in using bsit\administrator.</li>
+<li>Check Administrative Tools → Active Directory Users and Computers to ensure your server and domain are visible.</li>
+<li>Confirm your domain is ready for managing users, groups, and policies.</li>
+
     </ol>
   </div>
 </fieldset>
