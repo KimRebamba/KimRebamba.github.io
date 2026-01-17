@@ -43,7 +43,17 @@ li.nav-item.four.active {
 
 .navbar-nav .nav-link.four:hover,
 .navbar-nav .nav-link.four.active  {
-    color: #23dc3b;
+    color: #21cd38;
+}
+
+li.nav-item.five:hover,
+li.nav-item.five.active {
+       background: #32064c;    
+}
+
+.navbar-nav .nav-link.five:hover,
+.navbar-nav .nav-link.five.active  {   
+    color: #9c14e0;
 }
 
 .navbar-nav .nav-link {
@@ -152,4 +162,8 @@ i.bi {
         margin-right: 5px;
         margin-left: 5px;
     }
+}
+
+.navbar-collapse {
+    flex-grow: 0;
 }
